@@ -1,0 +1,27 @@
+package itbootcamo_qaA;
+
+import java.util.Scanner;
+
+public class Zadatak2 {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Unesite duzinu bazena");
+		double D;
+		
+		Scanner SC = new Scanner(System.in);
+		System.out.println("Unesite sirinu bazena");
+		
+		double S;
+		
+	S = SC.nextDouble();
+	D = SC.nextDouble();
+	
+	double O = D*2 + S*2;
+	double P = D * S;
+	System.out.println("Obim bazena je "  + O);
+	System.out.println("Povrsina bazena je "  + P);
+			
+	
+	}
